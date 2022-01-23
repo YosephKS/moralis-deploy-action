@@ -1,0 +1,6 @@
+name: "Moralis Deploy Action"
+description: ""
+author: "Yoseph Kurnia Soenggoro"
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

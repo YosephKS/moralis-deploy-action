@@ -1,0 +1,1 @@
+moralis-admin-cli deploy
