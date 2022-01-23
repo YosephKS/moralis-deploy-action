@@ -1,9 +1,12 @@
-on: [push]
-
+name: Moralis Deploy
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: '*'
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    name: Moralis Deploy
     steps:
       # To use this repository's private action,
       # you must check out the repository
