@@ -1,0 +1,17 @@
+on: [push]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: A job to say hello
+    steps:
+      # To use this repository's private action,
+      # you must check out the repository
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Moralis Deploy
+        uses: ./ # Uses an action in the root directory
+        env:
+          MORALIS_API_KEY: ${{ secrets.MORALIS_API_KEY }}
+          MORALIS_API_SECRET: ${{ secrets.MORALIS_API_SECRET }}
+          MORALIS_API_SUBDOMAIN: ${{ secrets.MORALIS_API_SUBDOMAIN }}

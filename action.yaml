@@ -1,5 +1,5 @@
 name: "Moralis Deploy Action"
-description: ""
+description: "Easy-to-use CI/CD workflows for deploying to Moralis Server"
 author: "Yoseph Kurnia Soenggoro"
 runs:
   using: 'docker'

@@ -2,7 +2,7 @@
   "name": "moralis-deploy-action",
   "version": "1.0.0",
   "description": "Custom GitHub Action to deploy to Moralis Server",
-  "main": "entrypoint.bash",
+  "main": "entrypoint.sh",
   "repository": "git@github.com:YosephKS/moralis-deploy-action.git",
   "author": "Yoseph Kurnia Soenggoro",
   "license": "AGPL-3.0",
