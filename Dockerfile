@@ -1,8 +1,8 @@
 FROM node
 
-COPY package*.json ./
+COPY . .
 
-RUN npm install
+RUN npm i -g moralis-admin-cli
 # If you are building your code for production
 # RUN npm ci --only=production
 
