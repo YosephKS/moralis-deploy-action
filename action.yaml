@@ -6,3 +6,4 @@ runs:
   image: 'Dockerfile'
 branding:
   icon: 'upload'
+  color: 'green'
