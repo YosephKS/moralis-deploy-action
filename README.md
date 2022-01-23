@@ -4,11 +4,15 @@
 </p>
 
 # Moralis Deploy GitHub Action
-This repository contains custom GitHub actions to deploy JS projects to Moralis server with moralis-admin-cli
+
+[![.github/workflows/main.yml](https://github.com/YosephKS/moralis-deploy-action/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/YosephKS/moralis-deploy-action/actions/workflows/main.yml)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+
+Custom GitHub Actions to help you build CI/CD workflow to deploy JS/TS projects to Moralis server.
 
 ### Table of Contents
 - [🏗️ Usage](#%EF%B8%8F-usage)
-- [🏭 Arguments](#%EF%B8%8F-arguments)
+- [🏭 Arguments](#-arguments)
 - [🛠️ Contributing](#%EF%B8%8F-contributing)
 - [📄 License](#-license)
 
