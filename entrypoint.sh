@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-moralis-admin-cli deploy
+npx moralis-admin-cli deploy
