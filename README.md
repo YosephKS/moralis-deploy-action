@@ -27,7 +27,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Deploy
-        uses: YosephKS
+        uses: YosephKS/moralis-deploy-action
         env:
           MORALIS_API_KEY: ${{ secrets.MORALIS_API_KEY }}
           MORALIS_API_SECRET: ${{ secrets.MORALIS_API_SECRET }}
