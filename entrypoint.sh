@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-[ -f package.json ] && npm i && npm ci && npm build
+[ -f package.json ] && npm i && npm ci && npm run build
 
 ls -a
 
