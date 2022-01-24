@@ -12,7 +12,7 @@ Custom GitHub Actions to help you build CI/CD workflow to deploy JS/TS projects 
 
 ### Table of Contents
 - [🏗️ Usage](#%EF%B8%8F-usage)
-- [🏭 Arguments](#-arguments)
+- [🏭 Environment Varialbes](#-environment-variables)
 - [🛠️ Contributing](#%EF%B8%8F-contributing)
 - [📄 License](#-license)
 
@@ -32,17 +32,17 @@ jobs:
           MORALIS_API_KEY: ${{ secrets.MORALIS_API_KEY }}
           MORALIS_API_SECRET: ${{ secrets.MORALIS_API_SECRET }}
           MORALIS_API_SUBDOMAIN: ${{ secrets.MORALIS_API_SUBDOMAIN }}
-          FOLDER_PATH: ${{ secrets.FOLDER_PATH }}
+          CUSTOM_FOLDER_PATH: ${{ secrets.CUSTOM_FOLDER_PATH }}
 ```
 
-### 🏭 Arguments
+### 🏭 Environment Variables
 
-The arguments are in the form of environment variables that needs to be stored in the repository's secrets. To get the value of the required environment variables, sign up for a free acccount [here](https://admin.moralis.io/register) and create a new server.
+The environment variables need to be stored in the repository's secrets. To get the value of the required environment variables, sign up for a free acccount [here](https://admin.moralis.io/register) and create a new server.
 
 - `MORALIS_API_KEY` **(required)**: Get `CLI API Key` value
 - `MORALIS_API_SECRET` **(required)**: Get `CLI API Secret` value
 - `MORALIS_API_SUBDOMAIN` **(required)**: Get subdomain from the `Server URL`, e.g.If *https://yjf6ilbm7qh5.usemoralis.com:2053/server* is your Server URL, then the subdomain value will be `yjf6ilbm7qh5.usemoralis.com`
-- `FOLDER_PATH`: The path to where your build folder (containing `index.html`) is located
+- `CUSTOM FOLDER_PATH`: The path to where your build folder (containing `index.html`) is located; If no value is provided then it defaults to the root folder.
 
 ### 🛠️ Contributing
 
