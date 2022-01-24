@@ -4,3 +4,6 @@ author: "Yoseph Kurnia Soenggoro"
 runs:
   using: 'docker'
   image: 'Dockerfile'
+branding:
+  icon: 'upload'
+  color: 'green'
