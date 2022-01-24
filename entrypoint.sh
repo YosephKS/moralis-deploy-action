@@ -1,6 +1,8 @@
 #!/bin/sh -l
 
-[ -f package.json ] && npm i
+ls -a
+
+[ -f package.json ] && npm i && npm ci
 
 moralis-admin-cli deploy \
 --moralisApiKey ${MORALIS_API_KEY} \
